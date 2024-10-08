@@ -1,0 +1,42 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 1;
+    z-index: 1000;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.sticky-header .navbar-brand img {
+    max-width: 30px;
+}
+
+.content-section {
+    padding: 60px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: rgb(179, 194, 241);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        border: none;
+    }
+}
+
